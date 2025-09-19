@@ -1,0 +1,4 @@
+fechaNacimiento = int(input("Ingresa el año en que naciste: "))
+anioDeHoy = 2025
+edad = anioDeHoy - fechaNacimiento
+print("Tienes", edad, "años.")
