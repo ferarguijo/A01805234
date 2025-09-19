@@ -1,0 +1,17 @@
+#Ejercicio1
+fechaNacimiento = int(input("Ingresa el año en que naciste: "))
+anioDeHoy = 2025
+edad = anioDeHoy - fechaNacimiento
+print("Tienes", edad, "años.")
+
+#Ejercicio2
+edad = int(input("Ingresa tu edad: "))
+if 13 <= edad <= 19:
+    print("Eres un chamaco (adolescente).")
+else: print("No eres un niño.")
+    
+#Ejercicio3
+edad = int(input("Ingresa tu edad: "))
+if edad >= 18:
+    print("adulto.")
+else:  print("muy bien.")
